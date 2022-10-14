@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, 'Arial Narrow', sans-serif;
+}
+
+#menu   ul{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    list-style-type: none;
+    margin: 0;
+}
+
+#menu   li  a{
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+#resz{
+    margin: auto;
+    width: 80%;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tartalom1   li{
+    list-style: url(kepek/nyilikon.png);
+}
+
+.tartalom2{
+    list-style: url(kepek/nyilikon.png);
+    border-right: 1px solid crimson;
+    border-left: 1px solid crimson;
+}
+
+img{
+    
+    width: 100px;
+}
+
+@media screen and (max-width: 500px) {
+    #menu   ul{
+        grid-template-columns: 1fr;
+    }
+
+    #resz{
+        grid-template-columns: 1fr;
+    }
+}

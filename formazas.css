@@ -26,7 +26,7 @@ h2{
     text-align: center;
 }
 
-#resz{
+.resz1{
     margin: auto;
     width: 80%;
     max-width: 800px;
@@ -49,12 +49,73 @@ img{
     width: 100px;
 }
 
+.img{
+    text-align: center;
+}
+
+.resz2{
+    margin: auto;
+    width: 80%;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+#folyamatabra{
+    width: 350px;
+}
+
+.tartalom3{
+    text-align: left;
+}
+
+.tartalom3  h1{
+    border-bottom: 1px solid crimson;
+    text-align: left;
+}
+
+.resz3{
+    margin: auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+.resz3  h1{
+    text-decoration: underline 3px solid crimson;
+    text-align: center;
+}
+
+.resz3{
+    text-align: center;
+}
+
+#elerhetosegek{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.resz3  img{
+    border-radius: 50%;
+}
+
 @media screen and (max-width: 500px) {
     #menu   ul{
         grid-template-columns: 1fr;
     }
 
-    #resz{
+    .resz1{
         grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .tartalom2{
+        list-style: url(kepek/nyilikon.png);
+        border: 0;
+    }
+
+    .resz2{
+        grid-template-columns: 1fr;
+        width: 100%;
     }
 }

@@ -62,6 +62,10 @@ img{
     grid-gap: 50px;
 }
 
+#abra{
+    text-align: center;
+}
+
 #folyamatabra{
     width: 350px;
 }
@@ -78,7 +82,7 @@ img{
 .resz3{
     margin: auto;
     width: 80%;
-    max-width: 800px;
+    max-width: 900px;
 }
 
 .resz3  h1{
@@ -93,10 +97,20 @@ img{
 #elerhetosegek{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 50px;
 }
 
 .resz3  img{
+    width: 100px;
     border-radius: 50%;
+}
+
+.block{
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgb(19, 147, 252);
+    padding: 10px;
 }
 
 @media screen and (max-width: 500px) {
@@ -117,5 +131,9 @@ img{
     .resz2{
         grid-template-columns: 1fr;
         width: 100%;
+    }
+
+    #elerhetosegek{
+        grid-template-columns: 1fr;
     }
 }
